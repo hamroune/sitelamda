@@ -6,6 +6,7 @@
 
 	<title>USER TRACK</title>
 	<link rel="stylesheet" href="/css/style.css">
+
 </head>
 <body> 
 
@@ -28,9 +29,10 @@
 	</div>
 </div>
 </body>
+<script type="text/javascript" src="pubnub.min.js"></script>
 <script type="text/javascript" src="../usertrack.js"></script>
 <script>
-	Usertrack.init("1234","1234-1234-1234-1234");
+	Usertrack.init("f512bac0-7689-11e4-9e3d-3b3a5674917e","f512bac0-7689-11e4-9e3d-3b3a5674917e");
 	Usertrack.track({identity:"jamel",age:"21",email:"jamel@gmail.com"});
 	Usertrack.send("load","detailsPage");
 	function like(){
